@@ -11,6 +11,8 @@
 		2723080E2BFB7BC9007991AD /* WeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2723080D2BFB7BC9007991AD /* WeatherModel.swift */; };
 		272308102BFB7C1B007991AD /* LocationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2723080F2BFB7C1B007991AD /* LocationViewModel.swift */; };
 		272308162BFB7CF5007991AD /* WeatherMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272308152BFB7CF5007991AD /* WeatherMainView.swift */; };
+		272308182BFBE0BB007991AD /* .com.google.Chrome.RtPv8U in Resources */ = {isa = PBXBuildFile; fileRef = 272308172BFBE0BB007991AD /* .com.google.Chrome.RtPv8U */; };
+		2723081A2BFBE14D007991AD /* Readme.md in Resources */ = {isa = PBXBuildFile; fileRef = 272308192BFBE14D007991AD /* Readme.md */; };
 		27941AF62BE0FAE20040AE3B /* ConfirmationPopOverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27941AF52BE0FAE20040AE3B /* ConfirmationPopOverView.swift */; };
 		27941AF82BE10C550040AE3B /* SuccessPopoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27941AF72BE10C550040AE3B /* SuccessPopoverView.swift */; };
 		27F14A7C2BC313B100F5A2DD /* login_singupApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F14A7B2BC313B100F5A2DD /* login_singupApp.swift */; };
@@ -54,6 +56,8 @@
 		2723080D2BFB7BC9007991AD /* WeatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherModel.swift; sourceTree = "<group>"; };
 		2723080F2BFB7C1B007991AD /* LocationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationViewModel.swift; sourceTree = "<group>"; };
 		272308152BFB7CF5007991AD /* WeatherMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherMainView.swift; sourceTree = "<group>"; };
+		272308172BFBE0BB007991AD /* .com.google.Chrome.RtPv8U */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = .com.google.Chrome.RtPv8U; path = ../../.com.google.Chrome.RtPv8U; sourceTree = "<group>"; };
+		272308192BFBE14D007991AD /* Readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = Readme.md; path = ../../Readme.md; sourceTree = "<group>"; };
 		27941AF52BE0FAE20040AE3B /* ConfirmationPopOverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmationPopOverView.swift; sourceTree = "<group>"; };
 		27941AF72BE10C550040AE3B /* SuccessPopoverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessPopoverView.swift; sourceTree = "<group>"; };
 		27F14A782BC313B100F5A2DD /* login singup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "login singup.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -157,6 +161,8 @@
 		27F14A7A2BC313B100F5A2DD /* login singup */ = {
 			isa = PBXGroup;
 			children = (
+				272308192BFBE14D007991AD /* Readme.md */,
+				272308172BFBE0BB007991AD /* .com.google.Chrome.RtPv8U */,
 				2723080A2BFB7B31007991AD /* login singup.entitlements */,
 				27F14A9E2BC3F8A400F5A2DD /* GoogleService-Info.plist */,
 				27F14A892BC3143600F5A2DD /* App */,
@@ -342,6 +348,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2723081A2BFBE14D007991AD /* Readme.md in Resources */,
+				272308182BFBE0BB007991AD /* .com.google.Chrome.RtPv8U in Resources */,
 				27F14A832BC313B300F5A2DD /* Preview Assets.xcassets in Resources */,
 				27F14A802BC313B300F5A2DD /* Assets.xcassets in Resources */,
 				27F14A9F2BC3F8A400F5A2DD /* GoogleService-Info.plist in Resources */,
