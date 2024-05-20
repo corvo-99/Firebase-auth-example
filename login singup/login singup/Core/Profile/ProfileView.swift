@@ -46,36 +46,36 @@ struct ProfileView: View {
                         Task{
                             try await viewModel.signOut()
                         }
-                    }, label: {
+                    }) {
                         SettingsRowView(imageName: "arrow.left.circle.fill",
                                         title: "Sign out",
                                         textRight: "",
                                         textRightColor: Color.gray,
                                         tintColor: Color.red)
                         .tint(Color.primary)
-                    })
+                    }
                     Button(action: {
                         Task{
                             ResetEmailView(email: $email)
                         }
-                    }, label: {
+                    }) {
                         SettingsRowView(imageName: "arrow.left.circle.fill",
                                         title: "Update email",
                                         textRight: "",
                                         textRightColor: Color.gray,
                                         tintColor: Color.red)
                         .tint(Color.primary)
-                    })
+                    }
                     Button(action: {
                         print("Deleting Acc")
-                    }, label: {
+                    }) {
                         SettingsRowView(imageName: "cross.circle.fill",
                                         title: "Delete account",
                                         textRight: "",
                                         textRightColor: Color.gray,
                                         tintColor: Color.red)
                         .tint(Color.primary)
-                    })
+                    }
                 }
             }
         }
