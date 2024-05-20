@@ -16,6 +16,7 @@ class AppDelegate: NSObject, UIApplicationDelegate {
 struct login_singupApp: App {
     @UIApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
     @StateObject var viewModel = AuthViewModel()
+    @ObservedObject var weatherViewModel = WeatherViewModel()
     
     init() {
         let providerFactory = YourAppCheckProviderFactory()
@@ -24,6 +25,7 @@ struct login_singupApp: App {
 //        AppCheck.setAppCheckProviderFactory(providerFactory)
 
         FirebaseApp.configure()
+        weatherViewModel.fetchCurrentWeather()
     }
     var body: some Scene {
         WindowGroup {

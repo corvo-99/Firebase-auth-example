@@ -12,7 +12,8 @@ struct ContentView: View {
     var body: some View {
         Group{
             if viewModel.userSession != nil {
-                ProfileView(email: .constant(""))
+                WeatherMainView()
+                //                ProfileView(email: .constant(""))
             } else {
                 LoginView()
             }
