@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2723080C2BFB7B89007991AD /* WeatherViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2723080B2BFB7B89007991AD /* WeatherViewModel.swift */; };
+		2723080E2BFB7BC9007991AD /* WeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2723080D2BFB7BC9007991AD /* WeatherModel.swift */; };
+		272308102BFB7C1B007991AD /* LocationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2723080F2BFB7C1B007991AD /* LocationViewModel.swift */; };
+		272308162BFB7CF5007991AD /* WeatherMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272308152BFB7CF5007991AD /* WeatherMainView.swift */; };
 		27941AF62BE0FAE20040AE3B /* ConfirmationPopOverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27941AF52BE0FAE20040AE3B /* ConfirmationPopOverView.swift */; };
 		27941AF82BE10C550040AE3B /* SuccessPopoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27941AF72BE10C550040AE3B /* SuccessPopoverView.swift */; };
 		27F14A7C2BC313B100F5A2DD /* login_singupApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F14A7B2BC313B100F5A2DD /* login_singupApp.swift */; };
@@ -45,6 +49,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2723080A2BFB7B31007991AD /* login singup.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "login singup.entitlements"; sourceTree = "<group>"; };
+		2723080B2BFB7B89007991AD /* WeatherViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewModel.swift; sourceTree = "<group>"; };
+		2723080D2BFB7BC9007991AD /* WeatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherModel.swift; sourceTree = "<group>"; };
+		2723080F2BFB7C1B007991AD /* LocationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationViewModel.swift; sourceTree = "<group>"; };
+		272308152BFB7CF5007991AD /* WeatherMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherMainView.swift; sourceTree = "<group>"; };
 		27941AF52BE0FAE20040AE3B /* ConfirmationPopOverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmationPopOverView.swift; sourceTree = "<group>"; };
 		27941AF72BE10C550040AE3B /* SuccessPopoverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessPopoverView.swift; sourceTree = "<group>"; };
 		27F14A782BC313B100F5A2DD /* login singup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "login singup.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -94,6 +103,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		272308112BFB7C6A007991AD /* Weather */ = {
+			isa = PBXGroup;
+			children = (
+				272308142BFB7CAB007991AD /* Model */,
+				272308132BFB7C9E007991AD /* ViewModel */,
+				272308122BFB7C91007991AD /* View */,
+			);
+			path = Weather;
+			sourceTree = "<group>";
+		};
+		272308122BFB7C91007991AD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				272308152BFB7CF5007991AD /* WeatherMainView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		272308132BFB7C9E007991AD /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				2723080F2BFB7C1B007991AD /* LocationViewModel.swift */,
+				2723080B2BFB7B89007991AD /* WeatherViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		272308142BFB7CAB007991AD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2723080D2BFB7BC9007991AD /* WeatherModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		27F14A6F2BC313B100F5A2DD = {
 			isa = PBXGroup;
 			children = (
@@ -113,6 +157,7 @@
 		27F14A7A2BC313B100F5A2DD /* login singup */ = {
 			isa = PBXGroup;
 			children = (
+				2723080A2BFB7B31007991AD /* login singup.entitlements */,
 				27F14A9E2BC3F8A400F5A2DD /* GoogleService-Info.plist */,
 				27F14A892BC3143600F5A2DD /* App */,
 				27F14A8A2BC3147800F5A2DD /* Components */,
@@ -155,6 +200,7 @@
 		27F14A8B2BC3148200F5A2DD /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				272308112BFB7C6A007991AD /* Weather */,
 				27F14A8E2BC3151200F5A2DD /* Authentication */,
 				27F14A8F2BC3152300F5A2DD /* Profile */,
 				27F14A8D2BC314EC00F5A2DD /* Root */,
@@ -317,11 +363,15 @@
 				27F14A972BC3282500F5A2DD /* RegistrationView.swift in Sources */,
 				27F14A9B2BC3E83C00F5A2DD /* SettingsRowView.swift in Sources */,
 				27F14A9D2BC3EE8C00F5A2DD /* User.swift in Sources */,
+				272308102BFB7C1B007991AD /* LocationViewModel.swift in Sources */,
 				27941AF62BE0FAE20040AE3B /* ConfirmationPopOverView.swift in Sources */,
 				27F14BD12BC7CDC000F5A2DD /* ResetPasswordView.swift in Sources */,
+				2723080C2BFB7B89007991AD /* WeatherViewModel.swift in Sources */,
 				27F14A7E2BC313B100F5A2DD /* ContentView.swift in Sources */,
 				27F14BD32BC7DA1A00F5A2DD /* ResetEmailView.swift in Sources */,
+				272308162BFB7CF5007991AD /* WeatherMainView.swift in Sources */,
 				27F14A992BC3DE2000F5A2DD /* ProfileView.swift in Sources */,
+				2723080E2BFB7BC9007991AD /* WeatherModel.swift in Sources */,
 				27F14A7C2BC313B100F5A2DD /* login_singupApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -453,6 +503,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "login singup/login singup.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"login singup/Preview Content\"";
@@ -460,6 +511,8 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "login-singup-Info.plist";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Used to get the weather";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Used to get the weather";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -483,6 +536,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "login singup/login singup.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"login singup/Preview Content\"";
@@ -490,6 +544,8 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "login-singup-Info.plist";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Used to get the weather";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Used to get the weather";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
