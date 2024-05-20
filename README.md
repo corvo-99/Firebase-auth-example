@@ -13,19 +13,19 @@ This project is a weather application that uses Firebase for authentication and 
 ## Screenshots
 
 ### SignIn
-![Screenshot 1](Firebase-auth-example/screenshots/signin.PNG)
+![Screenshot 1](screenshots/signin.PNG)
 
 ### SignUp
-![Screenshot 2](Firebase-auth-example/screenshots/signup.PNG)
+![Screenshot 2](screenshots/signup.PNG)
 
 ### Reset Password
-![Screenshot 3](Firebase-auth-example/screenshots/resetpassword.jpeg)
+![Screenshot 3](screenshots/resetpassword.jpeg)
 
 ### Weather Conditions
-![Screenshot 4](Firebase-auth-example/screenshots/weather.PNG)
+![Screenshot 4](screenshots/weather.PNG)
 
 ### Profile
-![Screenshot 5](Firebase-auth-example/screenshots/profile.PNG)
+![Screenshot 5](screenshots/profile.PNG)
 
 ## Contact
 
