@@ -12,8 +12,6 @@
 		272308102BFB7C1B007991AD /* LocationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2723080F2BFB7C1B007991AD /* LocationViewModel.swift */; };
 		272308162BFB7CF5007991AD /* WeatherMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272308152BFB7CF5007991AD /* WeatherMainView.swift */; };
 		2723081A2BFBE14D007991AD /* Readme.md in Resources */ = {isa = PBXBuildFile; fileRef = 272308192BFBE14D007991AD /* Readme.md */; };
-		27941AF62BE0FAE20040AE3B /* ConfirmationPopOverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27941AF52BE0FAE20040AE3B /* ConfirmationPopOverView.swift */; };
-		27941AF82BE10C550040AE3B /* SuccessPopoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27941AF72BE10C550040AE3B /* SuccessPopoverView.swift */; };
 		27F14A7C2BC313B100F5A2DD /* login_singupApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F14A7B2BC313B100F5A2DD /* login_singupApp.swift */; };
 		27F14A7E2BC313B100F5A2DD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F14A7D2BC313B100F5A2DD /* ContentView.swift */; };
 		27F14A802BC313B300F5A2DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27F14A7F2BC313B300F5A2DD /* Assets.xcassets */; };
@@ -56,8 +54,6 @@
 		2723080F2BFB7C1B007991AD /* LocationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationViewModel.swift; sourceTree = "<group>"; };
 		272308152BFB7CF5007991AD /* WeatherMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherMainView.swift; sourceTree = "<group>"; };
 		272308192BFBE14D007991AD /* Readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = Readme.md; path = ../../Readme.md; sourceTree = "<group>"; };
-		27941AF52BE0FAE20040AE3B /* ConfirmationPopOverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmationPopOverView.swift; sourceTree = "<group>"; };
-		27941AF72BE10C550040AE3B /* SuccessPopoverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessPopoverView.swift; sourceTree = "<group>"; };
 		27F14A782BC313B100F5A2DD /* login singup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "login singup.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		27F14A7B2BC313B100F5A2DD /* login_singupApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = login_singupApp.swift; sourceTree = "<group>"; };
 		27F14A7D2BC313B100F5A2DD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -194,8 +190,6 @@
 				27F14A922BC3180B00F5A2DD /* InputView.swift */,
 				27F14A942BC3217B00F5A2DD /* ButtonActionLabel.swift */,
 				27F14A9A2BC3E83C00F5A2DD /* SettingsRowView.swift */,
-				27941AF52BE0FAE20040AE3B /* ConfirmationPopOverView.swift */,
-				27941AF72BE10C550040AE3B /* SuccessPopoverView.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -360,7 +354,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				27F14AC62BC3FCBB00F5A2DD /* AuthViewModel.swift in Sources */,
-				27941AF82BE10C550040AE3B /* SuccessPopoverView.swift in Sources */,
 				27F14A912BC3154700F5A2DD /* LoginView.swift in Sources */,
 				27F14A932BC3180B00F5A2DD /* InputView.swift in Sources */,
 				27F14A952BC3217B00F5A2DD /* ButtonActionLabel.swift in Sources */,
@@ -368,7 +361,6 @@
 				27F14A9B2BC3E83C00F5A2DD /* SettingsRowView.swift in Sources */,
 				27F14A9D2BC3EE8C00F5A2DD /* User.swift in Sources */,
 				272308102BFB7C1B007991AD /* LocationViewModel.swift in Sources */,
-				27941AF62BE0FAE20040AE3B /* ConfirmationPopOverView.swift in Sources */,
 				27F14BD12BC7CDC000F5A2DD /* ResetPasswordView.swift in Sources */,
 				2723080C2BFB7B89007991AD /* WeatherViewModel.swift in Sources */,
 				27F14A7E2BC313B100F5A2DD /* ContentView.swift in Sources */,
